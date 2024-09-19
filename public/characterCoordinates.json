@@ -1,0 +1,110 @@
+{
+  "normal_1": {
+    "1": {
+      "TL": {
+        "relative_x": 0.21,
+        "relative_y": 0.70
+      }, 
+      "BR": {
+        "relative_x": 0.29,
+        "relative_y": 0.83
+      }
+    },
+    "2": {
+      "TL": {
+        "relative_x": 0.64,
+        "relative_y": 0.28
+      }, 
+      "BR": {
+        "relative_x": 0.69,
+        "relative_y": 0.38
+      }
+    }
+  },
+  "normal_2": {
+    "1": {
+      "TL": {
+        "relative_x": 0.40,
+        "relative_y": 0.13
+      }, 
+      "BR": {
+        "relative_x": 0.49,
+        "relative_y": 0.18
+      }
+    },
+    "2": {
+      "TL": {
+        "relative_x": 0.83,
+        "relative_y": 0.63
+      }, 
+      "BR": {
+        "relative_x": 0.89,
+        "relative_y": 0.71
+      }
+    }
+  },
+  "difficult_1": {
+    "1": {
+      "TL": {
+        "relative_x": 0.37,
+        "relative_y": 0.35
+      }, 
+      "BR": {
+        "relative_x": 0.40,
+        "relative_y": 0.37
+      }
+    },
+    "2": {
+      "TL": {
+        "relative_x": 0.69,
+        "relative_y": 0.53
+      }, 
+      "BR": {
+        "relative_x": 0.72,
+        "relative_y": 0.55
+      }
+    },
+    "3": {
+      "TL": {
+        "relative_x": 0.41,
+        "relative_y": 0.61
+      }, 
+      "BR": {
+        "relative_x": 0.43,
+        "relative_y": 0.63
+      }
+    }
+  },
+    "difficult_2": {
+    "1": {
+      "TL": {
+        "relative_x": 0.12,
+        "relative_y": 0.57
+      }, 
+      "BR": {
+        "relative_x": 0.16,
+        "relative_y": 0.60
+      }
+    },
+    "2": {
+      "TL": {
+        "relative_x": 0.73,
+        "relative_y": 0.66
+      }, 
+      "BR": {
+        "relative_x": 0.75,
+        "relative_y": 0.68
+      }
+    },
+    "3": {
+      "TL": {
+        "relative_x": 0.63,
+        "relative_y": 0.82
+      }, 
+      "BR": {
+        "relative_x": 0.66,
+        "relative_y": 0.85
+      }
+    }
+  }
+}
