@@ -57,3 +57,5 @@ group :test do
 end
 
 gem "ostruct", "~> 0.6.0"
+
+gem "rack-cors", "~> 2.0"
