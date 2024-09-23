@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module RailsProjectWhereIsBackEnd
   class Application < Rails::Application
+    config.api_only = true #Configuration for use as an API
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.2
 

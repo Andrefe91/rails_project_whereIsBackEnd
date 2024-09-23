@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_23_163325) do
 
   create_table "attempts", force: :cascade do |t|
     t.string "identifier", limit: 10
-    t.boolean "resolved"
+    t.boolean "resolved", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["identifier"], name: "index_attempts_on_identifier", unique: true
