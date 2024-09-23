@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  identifier: MyString
+  resolved: 2024-09-23 11:33:25
+
+two:
+  identifier: MyString
+  resolved: 2024-09-23 11:33:25
