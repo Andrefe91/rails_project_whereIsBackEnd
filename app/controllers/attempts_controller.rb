@@ -16,11 +16,14 @@ class AttemptsController < ApplicationController
   end
 
   def update
+    #If there is an attempt at update, then it should have the time
     @attempt.resolved = params[:resolved]
+    @attempt.time = params[:time]
+
     @attempt.save
 
     if @attempt.update(attempt_params)
-      render json: @attempt
+      render json: @attempt, status: :ok
     else
       render json: @attempt.errors, status: :unprocessable_entity
     end
@@ -29,7 +32,7 @@ class AttemptsController < ApplicationController
   private
 
   def attempt_params
-    params.require(:attempt).permit(:identifier, :resolved)
+    params.require(:attempt).permit(:identifier, :resolved, :time, :name)
   end
 
   def get_attempt
