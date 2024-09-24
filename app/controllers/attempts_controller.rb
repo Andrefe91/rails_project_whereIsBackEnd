@@ -20,6 +20,11 @@ class AttemptsController < ApplicationController
     @attempt.resolved = params[:resolved]
     @attempt.time = params[:time]
 
+    #If the attempt was resolved, then it should have the name
+    if params[:name]
+      @attempt.name = params[:name]
+    end
+
     @attempt.save
 
     if @attempt.update(attempt_params)
@@ -29,10 +34,15 @@ class AttemptsController < ApplicationController
     end
   end
 
+  def passed
+    @passed = Attempt.where.not(time: 0).order(:time).limit(10)
+    render json: @passed
+  end
+
   private
 
   def attempt_params
-    params.require(:attempt).permit(:identifier, :resolved, :time, :name)
+    params.require(:attempt).permit(:identifier, :resolved, :time, :name, :difficulty)
   end
 
   def get_attempt

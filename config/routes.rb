@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 
   root "attempts#index"
   resources :attempts, only: [:index, :create, :update]
+
+  get "/passed", to: "attempts#passed"
 end

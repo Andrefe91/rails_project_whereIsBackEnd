@@ -4,7 +4,8 @@ class CreateAttempts < ActiveRecord::Migration[7.2]
       t.string :identifier, limit: 10
       t.boolean :resolved, default: false
       t.integer :time, default: 0
-      t.string :name, default: ""
+      t.string :name, default: "Anonymous"
+      t.string :difficulty
 
       t.timestamps
     end
