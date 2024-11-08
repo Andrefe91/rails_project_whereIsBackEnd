@@ -56,6 +56,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "ostruct", "~> 0.6.0"
+gem "ostruct", "~> 0.6.1"
 
 gem "rack-cors", "~> 2.0"
